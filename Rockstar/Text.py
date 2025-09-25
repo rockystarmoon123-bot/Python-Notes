@@ -1,0 +1,25 @@
+val1=int (input("enter val1:"))
+val2=int (input("enter val2:"))
+print ("val1 + val2 =",val1 +val2)
+print ("val1-val2=",val1-val2)
+print ("val1*val2=",val1*val2)
+print ("val1/val2=",val1/val2)
+
+
+val1=float(input("enter val1:"))
+val2=float(input("enter val2:"))
+print ("val1 + val2 =",val1 +val2)
+print ("val1-val2=",val1-val2)
+print ("val1*val2=",val1*val2)
+print ("val1/val2=",val1/val2)
+
+
+first_name=input ("enter first_name:")
+last_name =input ("enter last_name :")
+print("fullname:",first_name + last_name)
+print ("repeated name:",first_name *2)
+print("sliced name (first 2 chars):",first_name [:2])
+print ("length of string :",len(first_name))
+print ("string to upper case:",first_name.upper())
+print ("string to lower case:",first_name.lower())
+print ("string swapcase:",last_name.swapcase())
